@@ -3,8 +3,8 @@
 	<persistence-unit name="TFLibreriaPanchito">
 	
 	<jta-data-source>java:/jpaDS</jta-data-source>
-			<!-- <class>pe.edu.upc.entity.RmVirus</class>
-			<class>pe.edu.upc.entity.RmRecipe</class> -->
+			<class>pe.com.entity.Books</class>
+			<!-- <class>pe.edu.upc.entity.RmRecipe</class> -->
 		<properties>
 			<property
 				name="javax.persistence.schema-generation.database.action"
