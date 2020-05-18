@@ -2,7 +2,7 @@ package pe.com.daointerface;
 
 import java.util.List;
 
-import pe.edu.upc.entity.Books;
+import pe.com.entity.Books;
 
 public interface BooksDao {
 	public void insert(Books i);

@@ -7,9 +7,9 @@ import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-import pe.edu.upc.daointerface.BooksDao;
-import pe.edu.upc.entity.Books;
-import pe.edu.upc.serviceinterface.BooksService;
+import pe.com.daointerface.BooksDao;
+import pe.com.entity.Books;
+import pe.com.serviceinterface.BooksService;
 
 @Named
 @RequestScoped

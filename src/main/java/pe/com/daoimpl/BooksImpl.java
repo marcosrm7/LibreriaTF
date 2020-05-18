@@ -9,8 +9,8 @@ import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 import javax.transaction.Transactional;
 
-import pe.edu.upc.daointerface.BooksDao;
-import pe.edu.upc.entity.Books;
+import pe.com.daointerface.BooksDao;
+import pe.com.entity.Books;
 
 public class BooksImpl implements BooksDao, Serializable {
 

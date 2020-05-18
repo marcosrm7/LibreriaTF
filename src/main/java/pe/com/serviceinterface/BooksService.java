@@ -1,7 +1,7 @@
 package pe.com.serviceinterface;
 
 import java.util.List;
-import pe.edu.upc.entity.Books;
+import pe.com.entity.Books;
 
 public interface BooksService {
 	public void insert(Books i);
